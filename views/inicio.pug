@@ -1,0 +1,29 @@
+extends ./layout/index
+
+block slider 
+    .slider 
+        h1 Río de Janeiro 
+            em aventura 
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6 
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat turpis eu pharetra maximus. Praesent justo ipsum, interdum quis malesuada nec, mattis vel massa. Donec ultricies nec tortor a molestie. Sed suscipit euismod nibh, at ultricies ligula gravida eget. Proin eros urna, tempus eget tellus vitae, pretium aliquam mi. Mauris lacinia ut ipsum ac tempor. Nullam elementum purus erat, id egestas mauris congue a. Maecenas facilisis sollicitudin elit, vel condimentum mi sollicitudin cursus. Donec maximus dolor et tortor elementum ullamcorper. Donec rutrum laoreet consectetur. Vivamus eu augue id risus ullamcorper rutrum et eget metus. Vivamus finibus vitae lorem at vestibulum. Integer congue, felis ac fermentum pellentesque, neque tellus vehicula libero, et ultricies odio est sed ligula. Vestibulum fermentum, ex quis porta varius, velit justo luctus libero, vel fringilla ipsum purus non arcu. 
+                p Vestibulum pharetra sagittis velit. Aliquam nunc augue, laoreet quis efficitur nec, consequat et velit. Mauris maximus molestie nisi, in rutrum nibh lacinia ut. Phasellus ornare, nisl at fermentum laoreet, orci nisi dignissim libero, vel rutrum ligula velit in quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus condimentum leo, quis posuere nulla pulvinar in. Nam at pulvinar sapien, at efficitur enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec non lorem eget tortor feugiat semper non et nulla. Vivamus sit amet finibus urna. Nunc pulvinar tincidunt sem a ullamcorper. In porta convallis dolor quis elementum. Nulla eu feugiat justo, quis semper tellus. Fusce porta velit sed metus mattis tincidunt. Aliquam erat volutpat. 
+            .col-md-6 
+                img(src="/img/inicio_nosotros.jpg", alt="", class="img-fluid")
+
+        include ./layout/bloque-viajes
+    .descuento 
+        .container 
+            .row 
+                .col-md-6
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canadá
+                        p.fecha 10 de Junio de 2023 - 18 de Junio de 2023
+                        p.precio $1.000.000 ARS
+    .container 
+        h2.mt-5.text-center Testimonios 
